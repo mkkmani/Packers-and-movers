@@ -1,0 +1,86 @@
+.my-moves{
+    font-size: 24px;
+}
+
+.home-moveslist-ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.home-moves-li{
+    display: flex;
+    width: 100%;
+    box-shadow: 2px 2px 2px 2px lightsalmon;
+    padding: 6px;
+    margin: 4px;
+    border-radius: 10px;
+}
+
+.arrow-div{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px 1px gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon{
+    color: #eb5910;
+}
+
+.icon-size{
+    height: 28px;
+    width: 28px;
+}
+
+.hr-line{
+    width: 100%;
+    border-top: 2px solid lightslategray;
+}
+
+.add-info{
+    font-size: 22px;
+}
+
+.inventory-ul-list{
+    list-style-type: none;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.inventory-li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px;
+    margin-left: 0px;
+    padding: 4px;
+    padding-left: 8px;
+    border-radius: 4px;
+    background-color: lightgray;
+    width: 100%;
+
+}
+
+.inventory-ul{
+    list-style-type: none;
+}
+
+.item-ul-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style-type: none;
+    padding-left:0;
+}
+/* 
+.inventory-li-item{
+    border: 1px solid lightblue;
+    border-radius: 2px;
+    
+    align-items: center;
+} */
